@@ -1,8 +1,7 @@
-package java_leetcode;
 
 import java.util.Arrays;
 
-public class Leetcode_88 {
+public class Tung_LeetCode_88 {
 
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         for (int i = m; i < n + m; i++) {

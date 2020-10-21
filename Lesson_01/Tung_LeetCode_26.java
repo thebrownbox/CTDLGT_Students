@@ -1,8 +1,7 @@
-package java_leetcode;
 
 import java.util.Arrays;
 
-public class Leetcode_26 {
+public class Tung_LeetCode_26 {
     public static void main(String[] args) {
 //        int[] nums = {0,0,1,1,1,2,2,3,3,4};
         int[] nums = {0,0,0,0,1,1,1,2,2,3,3,4,4,5,5,5,6,6,6,6};
@@ -11,6 +10,7 @@ public class Leetcode_26 {
         for (int i = 0; i < len; i++) {
             System.out.print(nums[i]);
         }
+    
     }
 
     public static int removeDuplicates(int[] nums) {

@@ -1,8 +1,7 @@
-package java_leetcode;
 
 import java.util.Arrays;
 
-public class Leetcode_283 {
+public class Tung_LeetCode_283 {
     public static void main(String[] args) {
 //        int[] nums = {0,1,0,3,12,0 ,2,3,4,5,3,0};
         int[] nums = {0,0,0,21,3,4,5,6,03,3,54,0,4,3,50};
