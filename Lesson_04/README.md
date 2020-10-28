@@ -5,8 +5,9 @@ Mọi người up file source code (\*.java) lên với format như sau: Ten_Lee
 "Cong_LeetCode_26.java" <br/>
 "Cong_LeetCode_88.java" <br/>
 "Cong_LeetCode_283.java" <br/>
-Bài 1: Tìm kiếm tuần tự sử dụng đệ quy.
 
+### Bài 1: Tìm kiếm tuần tự sử dụng đệ quy.
+<pre>
 find	Hàm find có chức năng tìm biến x trong mảng a và trả về index của x trong mảng a.
 x	số cần tìm
 a	mảng đang tìm kiếm
@@ -25,8 +26,10 @@ public class SimpleRecursion {
         // #2 Call function find
     }
 }
-Bài 2: Tính tổng sử dụng đệ quy
+</pre>
 
+### Bài 2: Tính tổng sử dụng đệ quy
+<pre>
 sum1	Implement hàm sum1 để tính tổng các phần tử có trong mảng a
 a	mảng cần tính tổng
 i	-tùy chọn- (bạn tự định nghĩa, có thể dùng hoặc ko dùng)
@@ -40,9 +43,10 @@ public static void main(String[] args) {
     int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     // #2 call function sum1
 }
+</pre>
 
-Bài 3: Tính tổng từ a đến b bằng đệ quy
-
+### Bài 3: Tính tổng từ a đến b bằng đệ quy
+<pre>
 sum2	 
 a	mảng cần tính tổng
 startIndex	chỉ số bắt đầu
@@ -57,3 +61,4 @@ public static void main(String[] args) {
     int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     // #2 call sum2
 }
+</pre>
