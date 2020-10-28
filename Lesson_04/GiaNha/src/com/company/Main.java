@@ -28,6 +28,9 @@ public class Main {
     }
 
     public static int sum1(int[] a, int i){
+        if (i == -1){
+            return 0;
+        }
         if (i == 0){
             return a[0];
         }
