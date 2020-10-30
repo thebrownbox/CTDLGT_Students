@@ -44,6 +44,12 @@ public class SimpleRecursion {
         }
     }
 
+    public static void travel2ndArray(int[][] a, int i, int j)
+    {
+        int nRow = a.length;
+
+    }
+
     public static void main(String[] args) {
         int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.println("find(10, a, 0): " + find(9, a, 0));
