@@ -16,6 +16,12 @@ public class JavaBasicCollections {
         // 1. Check whether is an element exist or not
         System.out.println("integerSet.contains(1): " + integerSet.contains(1));
         // 4. Tra
+        integerSet.add(-2);
+        integerSet.add(3);
+        for (Integer i: integerSet) {
+            System.out.println("i : " + i);
+        }
+        
     }
 
     public static void main(String[] args) {
