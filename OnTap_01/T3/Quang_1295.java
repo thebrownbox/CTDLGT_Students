@@ -6,7 +6,8 @@ public class Quang_1295 {
 
     public static int findNumbers(int[] nums){
         int ct = 0;
-        for(var num:nums){
+        // Tốt nhưng cần sửa lại format code
+        for(var num : nums){
             int digits = 0;
             while(num>0){
                 digits++;

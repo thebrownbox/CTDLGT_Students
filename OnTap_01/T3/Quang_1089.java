@@ -9,9 +9,12 @@ public class Quang_1089 {
     }
 
     public static void duplicateZeros(int[] arr){
+        // Được tốt! => Luyệt tập cách dùng Array List
         ArrayList<Integer> list = new ArrayList<>();
 
-        for(int i=0;i<arr.length;i++){
+        // Phần nào đó cách này còn tối ưu hơn các các khác. Độ phức tạp O(n) => 10 điểm về chỗ!
+        // Bù lại là tăng bộ nhớ, nhưng không đáng kể.
+        for(int i = 0;i<arr.length;i++){
             if(arr[i]==0){
                 list.add(arr[i]);
                 list.add(arr[i]);

@@ -5,11 +5,15 @@ public class dupilcateZeros {
         int j=0;
         int[] num;
         int z=0;
-        for (int i=0;i<arr.length;i++){
+        // Vẫn cần đổi format code
+        for (int i = 0; i < arr.length; i++){
             if(arr[i]==0){
-                num=new int[arr.length-1-i];
-                z=i+1;
-                for (j=0;j<num.length;j++){
+                // Và cách đặt tên biến, ko ai đặt tên mảng là num cả! :v
+
+                // Vẫn còn cách tối ưu hơn ko cần tạo mảng mới => Tham khảo bài của các bạn khác
+                num = new int[arr.length-1-i];
+                z = i + 1;
+                for (j = 0; j<num.length; j++){
                     num[j]=arr[z];
                     z++;
                 }
@@ -18,7 +22,7 @@ public class dupilcateZeros {
                     i++;
                 }
                 z=0;
-                for (j=i+1;j<arr.length;j++){
+                for (j = i+1; j<arr.length; j++){
                     arr[j]=num[z];
                     z++;
                 }

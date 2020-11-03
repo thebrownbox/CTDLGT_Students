@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class SonBT_Leetcode_1089 {
     public static void duplicateZeros(int[] arr) {
+        // Good!
         int n = arr.length;
         for(int i = 0; i < n; i++)
         {
@@ -12,7 +13,7 @@ public class SonBT_Leetcode_1089 {
                 int j = arr.length - 1;
                 while(j>i)
                 {
-                    arr[j]=arr[j-1];
+                    arr[j] = arr[j-1];
                     j--;
                 }
                 i++;

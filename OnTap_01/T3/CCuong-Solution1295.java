@@ -2,6 +2,7 @@ package com.company;
 
 public class Solution1295 {
 
+    // CongHV: Đổi tên hàm cho phù hợp
     static public int logarit(int n){
         int count = 0;
         while (n != 0){
@@ -11,6 +12,7 @@ public class Solution1295 {
         return count;
     }
 
+    // CongHV: Biết cách tổ chức chương trình mạch lạc => RẤT TỐT!
     static public int findNumbers(int[] nums) {
         int count = 0;
         for (int i = 0; i < nums.length; i++){

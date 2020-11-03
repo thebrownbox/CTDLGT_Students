@@ -3,7 +3,7 @@ package com.company;
 public class NguyenDucChau_1295 {
     public static int findNumbers(int[] nums) {
         int count = 0;
-
+        // Cũng là một cách tốt, nhưng code sẽ càng dài ra nếu như đề bài thay đổi thành kiểu số long.
         for (int i = 0; i < nums.length; i++) {
             if (0 <= nums[i] && nums[i] < 10) {
 
