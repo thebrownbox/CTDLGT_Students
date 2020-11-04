@@ -4,6 +4,7 @@ import java.io.OutputStream;
 
 public class NguyenDucChau_27 {
     public static int removeElement(int[] nums, int val) {
+        // Rất tốt
         int newIndex = 0;
         for (int i = 0; i < nums.length; i++) {
             if(nums[i] != val){

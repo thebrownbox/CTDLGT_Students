@@ -15,6 +15,8 @@ public class TungHT_Leetcode_27 {
     }
 
     public static int removeElement(int[] nums, int val) {
+        // Rất TỐT. -> Sử dụng 1 mảng mới để tăng hiệu xuất về thời gian
+        // 10 điểm về chỗ!
         int[] a = new int[nums.length];
         int nCount = 0;
         for (int i = 0, j = 0; i < nums.length; i++) {

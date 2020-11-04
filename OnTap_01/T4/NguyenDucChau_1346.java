@@ -2,6 +2,7 @@ package com.company;
 
 public class NguyenDucChau_1346 {
     public static boolean checkIfExist(int[] arr) {
+        // Very Good !!!
         boolean isCheck = false;
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = i + 1; j < arr.length; j++) {

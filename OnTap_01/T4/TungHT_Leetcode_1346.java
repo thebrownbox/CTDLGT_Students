@@ -10,6 +10,7 @@ public class TungHT_Leetcode_1346 {
     }
 
     public static boolean checkIfExist(int[] arr) {
+        // Rất tốt!
         int n = arr.length;
         boolean result = false;
         for (int i = 0; i < n; i++) {
