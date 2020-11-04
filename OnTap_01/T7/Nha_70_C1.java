@@ -1,3 +1,6 @@
+//Cách này đúng về giải thuật nhưng chạy trên leetcode sẽ bị time limited exceeded.
+//Ưu điểm: có thể xuất ra cách đi nếu cần
+
 class Solution {
     int count = 0;
     
