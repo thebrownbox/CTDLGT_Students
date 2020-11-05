@@ -6,7 +6,7 @@ public class Solution1299 {
     static public int[] replaceElements(int[] arr) {
         for (int i = 0; i < arr.length; i++){
             if (arr[i] != arr.length)
-               arr[i] = Math.max(arr[i], arr[i+1]); // em đang lỗi ở công thức này không biết sửa ntn
+               arr[i] = Math.max(arr[i], arr[i+1]);
         }
         for (int i = 1; i < arr.length; i++){
             arr[i-1] = arr[i];
