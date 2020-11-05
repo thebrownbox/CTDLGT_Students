@@ -6,7 +6,7 @@ public class SonBT_Leetcode_1299 {
     public static int[] replaceElements(int[] arr) {
         int n = arr.length;
         for (int i = 0; i < n - 1; i++) {
-            int max = Integer.MIN_VALUE;
+            int max = arr[i+1];
             for (int j = i+1; j < n; j++) {
                 if (arr[j] > max) {
                     max = arr[j];
