@@ -5,6 +5,8 @@ import java.util.Arrays;
 public class NhatDuc_RemoveElement {
     public static int removeElement(int[] nums, int val) {
         int count = 0;
+
+        // Cách xử lý này hơi cồng kềnh...
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == val) {
                 count++;
@@ -18,6 +20,8 @@ public class NhatDuc_RemoveElement {
                 }
             }
         }
+
+        // Đề bài không nhất thiết phải tạo mảng mới
         nums = Arrays.copyOf(nums, nums.length - count);
 
         return nums.length;
