@@ -1,17 +1,17 @@
 public class _16_707_Design_Linked_List {
 
-    public static class SinglyListNode
+    public static class Node
     {
         int val;
-        SinglyListNode next;
-        SinglyListNode(int x) { val = x; }
+        Node next;
+        Node(int x) { val = x; }
     }
 
 
     static class  MyLinkedList {
 
         // head luon tro vao dau list
-        private SinglyListNode head;
+        private Node head;
 
         /** Initialize your data structure here. */
         public MyLinkedList() {
@@ -21,7 +21,7 @@ public class _16_707_Design_Linked_List {
         /** Get the value of the index-th node in the linked list.
          * If the index is invalid, return -1. */
         public int get(int index) {
-            SinglyListNode tempNode = head;
+            Node tempNode = head;
             int count = 0;
 
             while (tempNode != null)
@@ -39,20 +39,20 @@ public class _16_707_Design_Linked_List {
         /** Add a node of value val before the first element of the linked list.
          * After the insertion, the new node will be the first node of the linked list. */
         public void addAtHead(int val) {
-            SinglyListNode newNode = new SinglyListNode(val);
+            Node newNode = new Node(val);
             newNode.next = head;
             head = newNode;
         }
 
         /** Append a node of value val to the last element of the linked list. */
         public void addAtTail(int val) {
-            SinglyListNode lastNode = head;
+            Node lastNode = head;
             while (lastNode != null)
             {
                 // Xac dinh last node
                 if(lastNode.next == null)
                 {
-                    SinglyListNode newNode = new SinglyListNode(val);
+                    Node newNode = new Node(val);
                     lastNode.next = newNode;
                     return;
                 }
@@ -71,8 +71,8 @@ public class _16_707_Design_Linked_List {
             }
             else
             {
-                SinglyListNode cur = head;
-                SinglyListNode newNode = new SinglyListNode(val);
+                Node cur = head;
+                Node newNode = new Node(val);
                 int count = 0;
 
                 while (cur != null)
@@ -97,8 +97,8 @@ public class _16_707_Design_Linked_List {
         /** Delete the index-th node in the linked list, if the index is valid. */
         public void deleteAtIndex(int index)
         {
-            SinglyListNode cur = head;
-            SinglyListNode prev = null;
+            Node cur = head;
+            Node prev = null;
             int count = 0;
 
             while (cur != null)
@@ -123,7 +123,7 @@ public class _16_707_Design_Linked_List {
 
         public void printList()
         {
-            SinglyListNode temp = head;
+            Node temp = head;
             System.out.printf("List: ");
 
             while (temp != null)
