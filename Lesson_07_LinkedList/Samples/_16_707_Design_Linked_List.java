@@ -65,6 +65,7 @@ public class _16_707_Design_Linked_List {
          * the node will be appended to the end of linked list.
          * If index is greater than the length, the node will not be inserted. */
         public void addAtIndex(int index, int val) {
+
             if(index == 0)
             {
                 addAtHead(val);
@@ -93,27 +94,30 @@ public class _16_707_Design_Linked_List {
                 }
             }
         }
-
+        public void removeAtHead(){
+            if(head == null){
+                head = null;
+            }else{
+                head = head.next;
+            }
+        }
         /** Delete the index-th node in the linked list, if the index is valid. */
         public void deleteAtIndex(int index)
         {
+            if(index == 0){
+                removeAtHead();
+                return;
+            }
             Node cur = head;
             Node prev = null;
             int count = 0;
-
+            
             while (cur != null)
             {
                 if(count == index)
                 {
-                    if(index == 0)
-                    {
-                        head = head.next;
-                    }
-                    else
-                    {
-                        prev.next = cur.next;
-                        return;
-                    }
+                    prev.next = cur.next;
+                    return;
                 }
                 count++;
                 prev = cur;
