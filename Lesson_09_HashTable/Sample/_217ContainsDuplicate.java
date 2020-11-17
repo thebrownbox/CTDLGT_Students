@@ -29,13 +29,35 @@ public class _217ContainsDuplicate {
         return false;
     }
 
+
+    static public int[] twoSum(int[] a, int target) {
+        int[] result = new int[2];
+        // B1 xay dung map
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < a.length; i++) {
+            map.put(a[i], i);    
+        }
+
+        // B2: Xac dinh k = target - a[i] trong map
+        for (int i = 0; i < a.length; i++) {
+            int k = target - a[i];
+            if(map.containsKey(k) == true){
+                int kIndex = map.get(k);
+                if(kIndex != i)
+                {
+                    result[0] = i;
+                    result[1] = kIndex;
+                    break;   
+                }
+            }
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
 
-        Set<Integer> mySet = new HashSet<>();
-        mySet.add(1);
-        mySet.add(1);
-        for(Integer s : mySet){
-            System.out.println(s);
-        }
+        int[] a = {3, 2, 4};
+        twoSum(a, 6);
     }
 }
