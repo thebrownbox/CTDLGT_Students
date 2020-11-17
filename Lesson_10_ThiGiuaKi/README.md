@@ -1,4 +1,5 @@
-# Bài tập | (Chi cần nộp file *.java)
+# Thi giữa kỳ 
+## (Chi cần nộp file *.java)
 
 
 Mọi người up file source code (\*.java) lên với format như sau: Ten_LeetCode_LeetCodeID <br/>
