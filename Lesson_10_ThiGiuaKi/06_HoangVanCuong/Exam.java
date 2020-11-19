@@ -1,3 +1,5 @@
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Stack;
 
 public class Exam {
@@ -86,7 +88,7 @@ public class Exam {
 
         if (sum == 1) {
             return true;
-        } else if (sum == 42){
+        } else if (sum == 42) {
             return false;
         }
 
@@ -94,18 +96,91 @@ public class Exam {
     }
 
     public boolean isValidSudoku(char[][] board) {
-        Stack<Character> myStack = new Stack<>();
 
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[i].length; j++) {
-                myStack.push(board[i][j]);
+        Set<Character> mySet = new HashSet<>();
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] != '.') {
+                    if (!mySet.contains(board[i][j])) {
+                        mySet.add(board[i][j]);
+                    } else {
+                        return false;
+                    }
+                }
+            }
+            mySet.clear();
+        }
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (board[i][j] != '.') {
+                    if (!mySet.contains(board[j][i])) {
+                        mySet.add(board[j][i]);
+                    } else {
+                        return false;
+                    }
+                }
+            }
+            mySet.clear();
+        }
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 3; j++) {
+                if (board[i][j] != '.') {
+                    if (!mySet.contains(board[i][j])) {
+                        mySet.add(board[i][j]);
+                    } else {
+                        return false;
+                    }
+                }
+            }
+            if (i != 0 && i % 3 == 0){
+                mySet.clear();
             }
         }
 
-        return false;
+        mySet.clear();
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 3; j < 6; j++) {
+                if (board[i][j] != '.') {
+                    if (!mySet.contains(board[i][j])) {
+                        mySet.add(board[i][j]);
+                    } else {
+                        return false;
+                    }
+                }
+            }
+            if (i != 0 && i % 3 == 0){
+                mySet.clear();
+            }
+        }
+
+        mySet.clear();
+
+        for (int i = 0; i < 9; i++) {
+            for (int j = 6; j < 9; j++) {
+                if (board[i][j] != '.') {
+                    if (!mySet.contains(board[i][j])) {
+                        mySet.add(board[i][j]);
+                    } else {
+                        return false;
+                    }
+                }
+            }
+            if (i != 0 && i % 3 == 0){
+                mySet.clear();
+            }
+        }
+
+        return true;
     }
 
     public static void main(String[] args) {
-        System.out.println(isHappy(2));
+        Character myChar = 'a';
+        char myChar2 = 'a';
+
+        System.out.println(myChar == myChar2);
     }
 }
