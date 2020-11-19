@@ -5,15 +5,15 @@ public class Letcode724 {
 
         if(nums.length<1)
             return -1;
-        int rsum=0, lsum=0;
+        int right=0, left=0;
         for(int x:nums)
-            rsum+=x;
+            right+=x;
         for(int x=0; x<nums.length; x++)
         {
-            rsum-=nums[x];
-            if(rsum==lsum)
+            right-=nums[x];
+            if(right==left)
                 return x;
-            lsum+=nums[x];
+            left+=nums[x];
         }
         return -1;
     }
