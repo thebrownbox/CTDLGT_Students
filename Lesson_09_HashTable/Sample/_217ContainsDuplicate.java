@@ -7,6 +7,29 @@ import java.util.Set;
  * _217ContainsDuplicate
  */
 public class _217ContainsDuplicate {
+
+
+    public static void howToUseSet()
+    {
+        Set<Integer> mySet = new HashSet<>();
+        // 1. Kiem tra phantu da ton tai hay chua
+        System.out.println("mySet.contains(1): " + mySet.contains(1));
+
+        // 2. Add 1 phan tu vao set
+        System.out.println("mySet.add(1): " + mySet.add(1));
+        System.out.println("mySet.contains(1): " + mySet.contains(1));
+
+        // 3. Add 1 phan tu da ton tai vao set
+        System.out.println("mySet.add(1): " + mySet.add(1));
+        System.out.println("mySet.contains(1): " + mySet.size());
+
+        // 4. Duyet set
+        mySet.add(2);
+        for(Integer e : mySet){
+            System.out.println(" => " + e);
+        }
+    }
+
     public static boolean containsDuplicate(int[] a) {
 
         Map<Integer, Integer> map = new HashMap<>();
@@ -56,8 +79,6 @@ public class _217ContainsDuplicate {
     }
 
     public static void main(String[] args) {
-
-        int[] a = {3, 2, 4};
-        twoSum(a, 6);
+        howToUseSet();
     }
 }
