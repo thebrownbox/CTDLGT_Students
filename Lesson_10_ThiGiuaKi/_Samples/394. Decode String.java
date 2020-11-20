@@ -10,10 +10,12 @@ class Solution
         int n = s.length();
         Stack<Character> stack = new Stack<>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             char c = s.charAt(i);
 
-            if(c == ']'){
+            if(c == ']')
+            {
                 //Main Xuly
 
                 // Pop until meet '['
@@ -39,7 +41,9 @@ class Solution
                 for (int j = 0; j < loopString.length(); j++) {
                     stack.push(loopString.charAt(j));
                 }
-            }else{
+            }
+            else
+            {
                 stack.push(c);
             }
         }
