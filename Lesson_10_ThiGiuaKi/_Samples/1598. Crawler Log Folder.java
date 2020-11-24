@@ -1,4 +1,6 @@
 class Test {
+
+    // Do thay doi
     public static int f(String s)
     {
         if(s.equals("./"))
@@ -7,6 +9,7 @@ class Test {
             return -1;
         return 1;
     }
+
     public static int minOperations(String[] logs) 
     {
         int depth = 0;
