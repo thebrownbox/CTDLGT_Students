@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class InOrder {
-    public static List<Integer> inorderTraversal(TreeNode curNode)
+public class PostOrder {
+    public static List<Integer> postOrderTraversal(TreeNode curNode)
     {
         List<Integer> result = new ArrayList<>();
-        subInOrderTravel(curNode, result);
+        subPostOrderTravel(curNode, result);
         return result;
     }
 
-    public static void subInOrderTravel(TreeNode curNode, List<Integer> result)
+    public static void subPostOrderTravel(TreeNode curNode, List<Integer> result)
     {
         if(curNode == null){
             return ;
@@ -17,9 +17,9 @@ public class InOrder {
 
         // cong thuc
         // System.out.println(curNode.val);
-        subInOrderTravel(curNode.left, result);
+        subPostOrderTravel(curNode.left, result);
+        subPostOrderTravel(curNode.right, result);
         result.add(curNode.val);
-        subInOrderTravel(curNode.right, result);
     }
 
     public static void main(String[] args) {
@@ -41,13 +41,13 @@ public class InOrder {
         n6.right = n7;
 
         System.out.println("Cay n4");
-        List<Integer> resultPreOrder = inorderTraversal(n4);
+        List<Integer> resultPreOrder = postOrderTraversal(n4);
         for (Integer integer : resultPreOrder) {
             System.out.println(integer);
         }
 
         System.out.println("Cay n2");
-        resultPreOrder = inorderTraversal(n2);
+        resultPreOrder = postOrderTraversal(n2);
         for (Integer integer : resultPreOrder) {
             System.out.println(integer);
         }
