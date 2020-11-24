@@ -12,8 +12,17 @@ public class MyBinarySearchTree {
     // public TreeNode insertIntoBST(TreeNode root, int val) {
     // }
 
-    public TreeNode searchBST(TreeNode root, int val) {
+    public TreeNode searchBST(TreeNode curNode, int val) {
+        if(curNode == null)
+            return null;
         
+        if(curNode.val == val)
+            return curNode;
+        
+        if(val > curNode.val)
+            return searchBST(curNode.right, val);
+            
+        return searchBST(curNode.left, val);
     }
 
     public void add(int val)
