@@ -9,6 +9,13 @@ public class MyBinarySearchTree {
 
     }
 
+    // public TreeNode insertIntoBST(TreeNode root, int val) {
+    // }
+
+    public TreeNode searchBST(TreeNode root, int val) {
+        
+    }
+
     public void add(int val)
     {
         TreeNode newNode = new TreeNode(val);
