@@ -3,6 +3,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
+import java.util.Stack;
 
 
 public class SampleBFS_BT {
@@ -38,9 +39,54 @@ public class SampleBFS_BT {
                 daDuyet.add(currentNode.right);
             }
         }
+        System.out.println();
     }
 
-    
+    public static void DFS(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        Set<TreeNode> daDuyet = new HashSet<>();
+
+        // b1. Add root vao queue
+        stack.add(root);
+        daDuyet.add(root);
+        // System.out.print(root.val + " ");
+
+        while(stack.isEmpty() == false)
+        {
+
+            // b2. pop ra khoi quue
+            TreeNode currentNode = stack.pop();
+            System.out.print(currentNode.val + " ");
+            
+            // b3. add cac canh ke
+            if(currentNode.right != null && daDuyet.contains(currentNode.right) == false)
+            {
+                stack.add(currentNode.right);
+                daDuyet.add(currentNode.right);
+            }
+
+            if(currentNode.left != null && daDuyet.contains(currentNode.left) == false)
+            {
+                stack.add(currentNode.left);
+                daDuyet.add(currentNode.left);
+            }
+
+        }  
+        System.out.println();
+    }
+
+
+    public static void preOrderTravel(TreeNode curNode)
+    {
+        if(curNode == null){
+            return ;
+        }
+
+        // cong thuc
+        System.out.print(curNode.val + " ");
+        preOrderTravel(curNode.left);
+        preOrderTravel(curNode.right);
+    }
 
     public static void main(String[] args) {
         
@@ -56,9 +102,16 @@ public class SampleBFS_BT {
         n2.left = n3;
         n2.right = n5;
 
-        n4.left = n5;
+        // n4.left = n5;
         n4.right = n6;
 
+        System.out.print("BFS: ");
         BFS(n1);
+        System.out.print("DFS: ");
+        DFS(n1);
+
+        System.out.print("preOrder: ");
+        preOrderTravel(n1);
+
     }
 }
