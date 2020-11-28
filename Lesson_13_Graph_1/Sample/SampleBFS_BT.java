@@ -76,7 +76,7 @@ public class SampleBFS_BT {
     }
 
 
-    public static void preOrderTravel(TreeNode curNode)
+    public static void DFS2(TreeNode curNode)
     {
         if(curNode == null){
             return ;
@@ -84,8 +84,11 @@ public class SampleBFS_BT {
 
         // cong thuc
         System.out.print(curNode.val + " ");
-        preOrderTravel(curNode.left);
-        preOrderTravel(curNode.right);
+        
+        // for(TreeNode nodeKe : curNode.neighbors && daDuyet.contain(nodeKe) == false)
+        // {
+        //     DFS2(nodeKe);
+        // }
     }
 
     public static void main(String[] args) {
@@ -110,8 +113,8 @@ public class SampleBFS_BT {
         System.out.print("DFS: ");
         DFS(n1);
 
-        System.out.print("preOrder: ");
-        preOrderTravel(n1);
+        System.out.print("DFS2: ");
+        DFS2(n1);
 
     }
 }
