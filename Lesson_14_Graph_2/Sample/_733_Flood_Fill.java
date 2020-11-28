@@ -25,6 +25,11 @@ public class _733_Flood_Fill {
         DFS(a, i-1, j, oldColor, newColor);
         DFS(a, i, j+1, oldColor, newColor);
         DFS(a, i, j-1, oldColor, newColor);
+
+        List<ToaDo> listDinhKe = get4DinhBenCanh(i, j);
+        Foreach(ToaDo k : listDinhKe){
+            DFS(k.i, k.j);
+        }
         
     }
 

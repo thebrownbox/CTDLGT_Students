@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -38,7 +39,6 @@ public class _690_Employee_Importance {
         daDuyet.add(id);
 
         // 5. Duyet den tat ca cac node con | nhan vien cap duoi cua curEmployee
-        
         for (Integer capDuoiId : curEmployee.subordinates) {
             DFS(allEmployee, capDuoiId);
         }
@@ -48,6 +48,10 @@ public class _690_Employee_Importance {
     {
         DFS(allEmployee, id);
         return totalImportance;
+    }
+
+    public static void main(String[] args) {
+
     }
     
 }
