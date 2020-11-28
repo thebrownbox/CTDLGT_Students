@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class _690_Employee_Importance {
@@ -11,7 +13,7 @@ public class _690_Employee_Importance {
         public List<Integer> subordinates;
     };
 
-
+    private Map<Integer, Employee> myMap = new HashMap<>();
     private Set<Integer> daDuyet = new HashSet<>();
     int totalImportance = 0;
 
@@ -19,12 +21,14 @@ public class _690_Employee_Importance {
     {
         // 1. Dieu Kien dung
         Employee curEmployee = null;
-        for (Employee e : allEmployee) {
-            if(e.id == id){
-                curEmployee = e;
-                break;
-            }
-        }
+        // for (Employee e : allEmployee) {
+        //     if(e.id == id){
+        //         curEmployee = e;
+        //         break;
+        //     }
+        // }
+
+        curEmployee = myMap.get(id);
 
         if(curEmployee == null)
             return;
@@ -46,6 +50,10 @@ public class _690_Employee_Importance {
 
     public int getImportance(List<Employee> allEmployee, int id) 
     {
+        for (Employee employee : allEmployee) {
+            myMap.put(employee.id, employee);
+        }
+
         DFS(allEmployee, id);
         return totalImportance;
     }
