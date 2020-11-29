@@ -24,8 +24,10 @@ public class _205_Isomorphic_Strings {
 
                 if(myMap.containsValue(c2) == true){
                     return false;
+                }else{
+                    myMap.put(c1, c2);
                 }
-                myMap.put(c1, c2);
+                
             }
         }
 
