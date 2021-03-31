@@ -12,7 +12,11 @@ Lession 2:
 - Debug with condition
 
 2. Chữa những bài tập chưa giải được
-
+04_TruongBaThuong
+07_LaiThiThanhTrang
+08_DangDucManh
+10_NguyenHoan
+11_LeTheHoangHai
 
 3. Nói qua về thuật toán sắp xếp
 => Yêu cầu 2 học viên tìm hiểu 2 thuật toán còn lại 
