@@ -24,4 +24,15 @@ Lession 2:
 4. Làm thêm 1,2 bài về xử lý string
 https://leetcode.com/problems/split-a-string-in-balanced-strings/
 
+Bìa 2: 1662. Check If Two String Arrays are Equivalent
+https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+
+Bài 3: 
+https://leetcode.com/problems/reverse-string/
+
 Bài tập về nhà:
+Đức - Chèn
+Hải - Chọn
+Cách sử dụng array sort
+Làm tiếp các bài chưa làm xong
+https://leetcode.com/problems/reformat-phone-number/
