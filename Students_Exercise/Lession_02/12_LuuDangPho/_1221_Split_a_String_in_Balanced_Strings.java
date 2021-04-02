@@ -1,6 +1,5 @@
 public class _1221_Split_a_String_in_Balanced_Strings {
     public static int balancedStringSplit(String s) {
-        // Jim: Good!
         int l = 0, r = 0, count = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 'L') {
