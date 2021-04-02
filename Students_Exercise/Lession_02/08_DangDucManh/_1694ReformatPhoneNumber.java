@@ -4,9 +4,9 @@ public class _1694ReformatPhoneNumber {
         String result = "";
         if (str.length() <= 3)
             result += str;
-        if (str.length() == 4)
+        else if (str.length() == 4)
             result = str.substring(0, 2) + "-" + str.substring(2);
-        if (str.length() > 4) {
+        else {
             String last4Digits = "";
             if (str.length() % 3 == 1) {
                 last4Digits = str.substring(str.length() - 4, str.length() - 2) + "-" + str.substring(str.length() - 2);
