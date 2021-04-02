@@ -1,5 +1,6 @@
 public class _344ReverseString {
     public static void reverseString(char[] s) {
+    // Jim: cách đặt tên, và format lại code 
         char n = 'A';
     for(int i =0; i< s.length/2;i++){
         n = s[i];

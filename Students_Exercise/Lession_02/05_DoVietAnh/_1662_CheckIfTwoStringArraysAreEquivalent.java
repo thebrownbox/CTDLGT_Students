@@ -10,6 +10,8 @@ import java.util.Arrays;
 class _1662_CheckIfTwoStringArraysAreEquivalent {
 
     static boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        // Jim: Really bad code!
+        // Code chạy đúng, nhưng khó quan sát, đồng thời người đọc cũng khó hiểu
         return Arrays.toString(word1).replaceAll(" ", "").replaceAll(",", "")
                 .equals(Arrays.toString(word2).replaceAll(" ", "").replaceAll(",", ""));
     }

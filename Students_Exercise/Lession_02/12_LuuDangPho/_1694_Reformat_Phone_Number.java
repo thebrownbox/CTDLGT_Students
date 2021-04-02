@@ -1,5 +1,6 @@
 public class _1694_Reformat_Phone_Number {
     public static String reformatNumber(String number) {
+        // Jim: Amazing Good Job!
         String str = number.replace(" ", "").replace("-", "");
         int n = str.length();
         if (n <= 3) {

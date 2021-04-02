@@ -2,6 +2,7 @@ public class _1694ReformatPhoneNumber {
     public static String reformatNumber(String number) {
         String str = number.replace("-", "").replace(" ", "");
         String result = "";
+        // Jim: Code có thể ngắn gọn hơn 
         if(str.length() <= 3 ) result += str;
         if(str.length() == 4 ) result = str.substring(0, 2) + "-" + str.substring(2);
         if(str.length() > 4){

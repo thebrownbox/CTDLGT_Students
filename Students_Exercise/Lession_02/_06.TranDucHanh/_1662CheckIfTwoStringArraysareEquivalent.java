@@ -1,5 +1,6 @@
 public class _1662CheckIfTwoStringArraysareEquivalent {
     public boolean arrayStringsAreEqual(String[] word1, String[] word2) {
+        // Jim: Good! Biết dùng StringBuilder 
         StringBuilder str1 = new StringBuilder();
         StringBuilder str2 = new StringBuilder();
         for (String s : word1) {

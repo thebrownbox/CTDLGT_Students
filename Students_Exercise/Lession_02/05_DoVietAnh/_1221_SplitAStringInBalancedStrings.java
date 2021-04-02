@@ -10,6 +10,7 @@ Return the maximum amount of split balanced strings.
 class _1221_SplitAStringInBalancedStrings {
 
     static int balancedStringSplit(String s) {
+        // Jim: Good! Nhưng nên cho ngoặc và cả if và else 
         int lCount = 0, rCount = 0, max = 0;
         for( int i = 0; i < s.length(); i++ ) {
             if( s.charAt(i) == 'L' )

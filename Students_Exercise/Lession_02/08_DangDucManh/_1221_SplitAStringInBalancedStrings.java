@@ -9,6 +9,7 @@ public class _1221_SplitAStringInBalancedStrings {
             } else {
                 countL++;
             }
+            // Jim: Điều kiện có vẻ hơi thừa!
             if (countL == countR && countL != 0) {
                 amount++;
             }

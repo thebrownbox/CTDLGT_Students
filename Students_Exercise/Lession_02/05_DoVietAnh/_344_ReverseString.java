@@ -10,6 +10,7 @@ import java.util.Arrays;
 class _344_ReverseString {
 
     static void reverseString(char[] s) {
+        // Jim: Trình bày tốt ! Good!
         int j = s.length - 1;
         char temp;
         for( int i = 0; i < s.length; ) {

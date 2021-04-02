@@ -1,6 +1,7 @@
 public class _344_Reverse_String {
     public static void reverseString(char[] s) {
         char temp = 's';
+        // Jim: Good!
         for (int i = 0; i < s.length / 2; i++) {
             temp = s[i];
             s[i] = s[s.length - i - 1];
