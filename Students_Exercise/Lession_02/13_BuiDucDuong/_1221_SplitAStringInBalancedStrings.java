@@ -1,5 +1,3 @@
-package day02;
-
 public class _1221_SplitAStringInBalancedStrings {
     public static void main(String[] args) {
 

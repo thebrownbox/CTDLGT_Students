@@ -1,5 +1,3 @@
-package day02;
-
 public class _1662_CheckIfTwoStringArraysAreEquivalent {
     public static void main(String[] args) {
         String[] word1 = { "ab", "c" };

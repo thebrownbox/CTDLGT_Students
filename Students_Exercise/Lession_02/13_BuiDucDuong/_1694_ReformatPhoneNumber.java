@@ -1,36 +1,32 @@
-package day02;
-
 public class _1694_ReformatPhoneNumber {
     public static void main(String[] args) {
-        String number = "1234";
+        String number = "1-23-45 6";
         System.out.println(reformatNumber(number));
     }
 
     public static String reformatNumber(String number) {
-        int n = number.length();
-        StringBuilder s = new StringBuilder();
+        number = number.replace(" ", "");
+        number = number.replace("-", "");
+        StringBuilder res = new StringBuilder();
         int i = 0;
-        while (i < n && !(number.charAt(i) >= '0' && number.charAt(i) <= '9')) {
-            i++;
-        }
-        s.append(number.charAt(i));
-        i++;
-        int count = 3;
-        for (int j = i; j < n; j++) {
-            char c = number.charAt(j);
-            if (c >= '0' && c <= '9') {
-                if (s.length() % count == 0) {
-                    s.append('-');
-                    count += 4;
-                }
-                s.append(c);
+        while (i < number.length()) {
+            int k = number.length() - i;
+            if (k == 2 || k == 4) {
+                i = appendString(res, number, i, i + 2);
+            } else {
+                i = appendString(res, number, i, i + 3);
             }
         }
-        if (s.length() % count == 0 || s.length() < 3) {
-            return s.toString();
+        return res.toString();
+    }
+
+    private static int appendString(StringBuilder res, String number, int i, int j) {
+        if (res.length() == 0) {
+            res.append(number.substring(i, j));
+        } else {
+            res.append("-");
+            res.append(number.substring(i, j));
         }
-        String res = s.substring(0, s.length() - 3);
-        String sub = s.substring(s.length() - 3, s.length()).replace("-", "");
-        return res + "-" + sub;
+        return j;
     }
 }
