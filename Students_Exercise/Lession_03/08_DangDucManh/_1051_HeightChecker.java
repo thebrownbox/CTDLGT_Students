@@ -23,7 +23,7 @@ public class _1051_HeightChecker {
     }
 
     public static void main(String[] args) {
-        int[] heights = { 5, 1, 2, 3, 4 };
+        int[] heights = { 2, 1, 5, 3, 4, 6 };
         System.out.println(heightChecker(heights));
     }
 }
