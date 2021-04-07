@@ -1,5 +1,3 @@
-package day02;
-
 public class _344_ReverseString {
     public void reverseString(char[] s) {
         int n = s.length - 1;
