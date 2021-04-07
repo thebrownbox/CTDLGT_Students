@@ -4,18 +4,16 @@ public class bai2 {
         
     }
     public static int Numbers(int[] nums){
-        int im = 0;
         int sc = 0;
-        for(int i=0;i<nums.length;i++){
-            int dem = 0;
-            if(nums[im] / 10!=0){
+        for (int i = 0; i < nums.length; i++) {
+            int dem = 1;
+            while (nums[i] / 10 != 0) {
                 dem++;
-                nums[im] = nums[im] /10;
+                nums[i] = nums[i] / 10;
             }
-        if(dem % 2==0){
-            sc++;
-        }
-        im++;
+            if (dem % 2 == 0) {
+                sc++;
+            }
         }
         return sc;
 
