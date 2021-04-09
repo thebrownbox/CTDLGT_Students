@@ -5,12 +5,16 @@ public class _704BinarySearch {
         }
         int k = (R+L)/2;
         if (x==a[k]){
-           return a[k];
+           return k;
         }
         if (x<a[k]) {
             return binarySearch(a, L, k-1, x);
         }
         return binarySearch(a, k+1, R, x);
+    }
+    
+    public int search(int[] nums, int target) {
+        return binarySearch(nums, 0, nums.length-1, target);
     }
 
     public static void main(String[] args) throws Exception {
