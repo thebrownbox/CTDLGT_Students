@@ -16,7 +16,6 @@ public class _509_Fibonacci_Number_Not_Recursive {
     }
 
     public static void main(String[] args) {
-        int n = 4;
-        System.out.println(fib(n));
+        System.out.println(fib(4));
     }
 }
