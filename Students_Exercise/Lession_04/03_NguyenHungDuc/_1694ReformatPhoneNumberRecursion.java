@@ -1,12 +1,16 @@
 class _1694ReformatPhoneNumberRecursion {
+    static String str ="";
     public static String reformatNumber(String number) {
-        StringBuilder str = new StringBuilder();
-        number = number.replaceAll("[- ]", "");
+        
+        str = number.replaceAll("[- ]", "");
+        int length = str.length(); 
 
-        if (str.length() == 4) {
+        if (length <= 3) {
             return str;
-        }else if(str.length()){
-
+        }else if(length==4){
+            return str = str.substring(0, 2) + "-" + str.substring(2, 4);
+        }else{
+            str = str.substring(0, 3) + "-"+ reformatNumber(str.substring(3, length));
         }
 
         return str;
