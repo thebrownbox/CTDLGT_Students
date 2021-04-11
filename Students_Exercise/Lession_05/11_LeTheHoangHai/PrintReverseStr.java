@@ -2,7 +2,7 @@ public class PrintReverseStr {
     public static void printReverseStr(String s) {
         int i = s.length();      
    
-   
+
         if (i <= 0) {
             System.out.print(s);
 
