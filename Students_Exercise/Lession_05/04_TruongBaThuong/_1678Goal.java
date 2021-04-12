@@ -1,5 +1,5 @@
-public class 1678{
-    public String interpret(String command){
+public class _1678Goal{
+    public static String interpret(String command){
         StringBuilder sb = new StringBuilder();
         int start = 0;
         for(int i = 0;i<command.length();i++)
@@ -15,9 +15,10 @@ public class 1678{
                     sb.append("al");
             }
     
-            return sb.toString();
+           
         }
-    
+        return sb.toString();
+    }
         public static void main(String[] args) {
             String command = "(al)G(al)()()G";
             System.out.println(interpret(command));
