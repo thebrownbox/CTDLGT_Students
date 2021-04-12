@@ -10,7 +10,7 @@ class _1694ReformatPhoneNumberRecursion {
         }else if(length==4){
             return str = str.substring(0, 2) + "-" + str.substring(2, 4);
         }else{
-            str = str.substring(0, 3) + "-"+ reformatNumber(str.substring(3, length));
+            str = str.substring(0, 3) + "-"+ reformatNumber(str.substring(3));
         }
 
         return str;
