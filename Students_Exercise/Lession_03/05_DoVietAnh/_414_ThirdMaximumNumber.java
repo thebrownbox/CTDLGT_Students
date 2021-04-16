@@ -48,4 +48,6 @@ class _414_ThirdMaximumNumber {
         int[] arr = {5, 2, 2, -2, 10};
         System.out.println("third max num: " + thirdMax(arr));
     }
+
+    
 }
