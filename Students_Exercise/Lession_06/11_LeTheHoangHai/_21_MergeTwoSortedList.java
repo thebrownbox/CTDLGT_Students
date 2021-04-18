@@ -13,8 +13,5 @@ public class _21_MergeTwoSortedList {
         } else {
             return new ListNode(l2.val, mergeTwoLists(l1, l2.next));
         }
-    }
-
-
-    
+    }   
 }

@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch _844_BackSpaceStringCompare",
+            "request": "launch",
+            "mainClass": "_844_BackSpaceStringCompare",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bai21",
+            "request": "launch",
+            "mainClass": "Bai21",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyLinkedList",
+            "request": "launch",
+            "mainClass": "MyLinkedList",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _141_LinkedListCycle",
+            "request": "launch",
+            "mainClass": "_141_LinkedListCycle",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _203_RemoveLinkedList",
+            "request": "launch",
+            "mainClass": "_203_RemoveLinkedList",
+            "projectName": "CTDLGT_Students_90422339"
+        }
+    ]
+}
