@@ -1,4 +1,3 @@
-
 public class _21_MergeTwoSortedLists {
     public static class ListNode {
         int val;
