@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TestDriver",
+            "request": "launch",
+            "mainClass": "TestDriver",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1598_CrawlerLogFolder",
+            "request": "launch",
+            "mainClass": "_1598_CrawlerLogFolder",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _929_UniqueEmail",
+            "request": "launch",
+            "mainClass": "_929_UniqueEmail",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
             "name": "Launch _844_BackSpaceStringCompare",
             "request": "launch",
             "mainClass": "_844_BackSpaceStringCompare",
