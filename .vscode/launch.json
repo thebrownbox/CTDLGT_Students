@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SetExample",
+            "request": "launch",
+            "mainClass": "SetExample",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch UseMap",
+            "request": "launch",
+            "mainClass": "UseMap",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _202_HappyNumber",
+            "request": "launch",
+            "mainClass": "_202_HappyNumber",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _394_decodeString_notregex",
+            "request": "launch",
+            "mainClass": "_394_decodeString_notregex",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _394_DecodeString",
+            "request": "launch",
+            "mainClass": "_394_DecodeString",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _459_SubstringPattern",
+            "request": "launch",
+            "mainClass": "_459_SubstringPattern",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _125_ValidPandirom",
+            "request": "launch",
+            "mainClass": "_125_ValidPandirom",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
             "name": "Launch TestDriver",
             "request": "launch",
             "mainClass": "TestDriver",
