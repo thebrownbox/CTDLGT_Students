@@ -1,8 +1,5 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class _287FindtheDuplicateNumber {
-    public static int findDuplicate(int[] nums) {
+    public int findDuplicate(int[] nums) {
         Map<Integer, Integer> myMap = new HashMap<>();
         int valueCount = 0;
         for (int i : nums) {
@@ -20,10 +17,5 @@ class _287FindtheDuplicateNumber {
             }
         }
         return -1;
-    }
-    public static void main(String[] args) {
-        int[] nums = { 3,1,3,4,2 };
-        System.out.println(findDuplicate(nums));
-
     }
 }
