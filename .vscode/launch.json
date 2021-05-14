@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch _67_addBinary2",
+            "request": "launch",
+            "mainClass": "_67_addBinary2",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _797_allPathfaster",
+            "request": "launch",
+            "mainClass": "_797_allPathfaster",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _797_allPathsFromSource",
+            "request": "launch",
+            "mainClass": "_797_allPathsFromSource",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1791_FirstCenterStarGraph",
+            "request": "launch",
+            "mainClass": "_1791_FirstCenterStarGraph",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _450_DeletNodeBST",
+            "request": "launch",
+            "mainClass": "_450_DeletNodeBST",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _112_PathSum",
+            "request": "launch",
+            "mainClass": "_112_PathSum",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _98_ValidateBinarySearchTree",
+            "request": "launch",
+            "mainClass": "_98_ValidateBinarySearchTree",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch _98_ValidaeTree",
+            "request": "launch",
+            "mainClass": "_98_ValidaeTree",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sample",
+            "request": "launch",
+            "mainClass": "Sample",
+            "projectName": "CTDLGT_Students_90422339"
+        },
+        {
+            "type": "java",
             "name": "Launch SetExample",
             "request": "launch",
             "mainClass": "SetExample",
