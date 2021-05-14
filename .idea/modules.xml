@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CTDLGT_Students.iml" filepath="$PROJECT_DIR$/CTDLGT_Students.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Documents/Documents.iml" filepath="$PROJECT_DIR$/Documents/Documents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_01/Lession_01.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_01/Lession_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_02/Lession_02.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_02/Lession_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_03/Lession_03.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_03/Lession_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_04/Lession_04.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_04/Lession_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_05/Lession_05.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_05/Lession_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_06/Lession_06.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_06/Lession_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_07/Lession_07.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_07/Lession_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Students_Exercise/Lession_08/Lession_08.iml" filepath="$PROJECT_DIR$/Students_Exercise/Lession_08/Lession_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Samples/Samples.iml" filepath="$PROJECT_DIR$/Samples/Samples.iml" />
+    </modules>
+  </component>
+</project>
