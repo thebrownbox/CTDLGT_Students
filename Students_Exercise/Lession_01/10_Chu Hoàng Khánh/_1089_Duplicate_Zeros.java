@@ -19,7 +19,7 @@ public class _1089_Duplicate_Zeros {
             }
         }
 
-        printArray(a);
+        Print_Array.printArray(a);
     }
 
     private static void removeElement(int i, int[] a) {
@@ -28,9 +28,4 @@ public class _1089_Duplicate_Zeros {
         }
     }
 
-    private static void printArray(int a[]) {
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
-    }
 }

@@ -20,7 +20,7 @@ public class _283_MoveZeroes{
             }
         }
 
-        printArray(a);
+        Print_Array.printArray(a);
     }
 
     private static void removeElement(int[] a, int i) {
@@ -31,10 +31,5 @@ public class _283_MoveZeroes{
         a[a.length - 1] = x;
     }
     
-    private static void printArray(int a[]) {
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + " ");
-        }
-    }
 
 }
