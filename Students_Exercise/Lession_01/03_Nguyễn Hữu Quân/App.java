@@ -1,6 +1,5 @@
+//Duplicate Zero 1089
 public class App {
-
-
     public static void duplicateZeros(int[] arr) {
         int len = arr.length;
         boolean lastEqualZero = false;
