@@ -1,4 +1,4 @@
-public class Max_Consecutive_Ones {
+public class _485_Max_Consecutive_Ones {
         public static int findMaxConsecutiveOnes(int[] nums) {
                 int max = 0;
                 int count = 0;
@@ -14,7 +14,6 @@ public class Max_Consecutive_Ones {
             }
             public static void main(String[] args) {
                 int [] arr = {1,1,0,1,1,1};
-
             }
 }
 
