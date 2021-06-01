@@ -15,7 +15,7 @@ public  class _27_Remove_Element {
     }
     public static void main(String[] args) {
         int [] a = {1,2,3,4,5};
-        System.out.println(removeElement(a, 3));
+        System.out.println(removeElement(a, 3));.
         
     }
     
