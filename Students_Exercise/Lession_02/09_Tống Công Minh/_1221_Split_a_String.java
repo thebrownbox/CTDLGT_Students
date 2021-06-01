@@ -10,8 +10,6 @@ public class _1221_Split_a_String {
     for (int i = 0; i < s.length(); i++) {
       if (countL == countR) {
         count++;
-        countL = 0;
-        countR = 0;
       }
       if (s.charAt(i) == 'R') {
         countR++;
