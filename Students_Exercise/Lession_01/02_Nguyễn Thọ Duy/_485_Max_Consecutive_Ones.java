@@ -10,8 +10,7 @@ public class _485_Max_Consecutive_Ones {
                                         count = 0;
                                 }
                         }
-                        return max;
-                
+                        return max;               
         }
 
         public static void main(String[] args) {
