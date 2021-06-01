@@ -9,18 +9,20 @@ public class _1089_DuplicateZeros {
      * Input: [1,0,2,3,0,4,5,0] Output: null Input: [1,2,3] Output: null
      */
     public void duplicateZero(int[] nums) {
-        int i = 0,j = nums.length - 1;
+        int i = 0;
         while (i < nums.length - 1) {
+            int j = nums.length - 1;
             if (nums[i] == 0) {
                 // dịch phần tử sang bên phải
-                while (j > i + 1) {
+                while (j >= i + 1) {
                     nums[j] = nums[j - 1];
                     j--;
                 }
                 // gán phần tử liền kề bằng 0
-                nums[i + 1] = 0;
+                i += 2;
+            } else {
+                i++;
             }
-            i++;
         }
     }
 
