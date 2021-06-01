@@ -8,14 +8,14 @@ public class _1221_Split_a_String {
     int count = 0;
 
     for (int i = 0; i < s.length(); i++) {
-      if (countL == countR) {
-        count++;
-      }
       if (s.charAt(i) == 'R') {
         countR++;
       }
       if (s.charAt(i) == 'L') {
         countL++;
+      }
+      if (countL == countR) {
+        count++;
       }
     }
 
@@ -23,7 +23,7 @@ public class _1221_Split_a_String {
   }
 
   public static void main(String[] args) {
-    String s = "LLLLRRRR";
+    String s = "LLRLRRLLRR";
 
     System.out.println(balancedStringSplit(s));
   }
