@@ -70,7 +70,7 @@ public class _1636_Sort_Array {
             int k = x.freq;
             int value = x.value;
             for (int j = 0; j < k; j++) {
-                System.out.print(value + " ");
+                // System.out.print(value + " ");
                 // resultList.add(value);
                 resultList[index] = value-ADDED_VALUE;
                 index++;
