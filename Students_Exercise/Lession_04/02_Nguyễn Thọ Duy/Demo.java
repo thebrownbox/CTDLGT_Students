@@ -14,6 +14,7 @@ public class Demo {
         int[] a = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         int x = 5;
         int result = find(x, a, 0);
+        //in ket qua
         System.out.println(result);
     }
 }

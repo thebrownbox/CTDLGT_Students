@@ -11,7 +11,7 @@ public class MathArray {
     public static void main(String[] args) {
         int a[] = { 1, 2, 5, 6, 7, 9, 10 };
         int sum = sum1(a, 0);
-
+        //in kqua
         System.out.println(sum);
     }
 

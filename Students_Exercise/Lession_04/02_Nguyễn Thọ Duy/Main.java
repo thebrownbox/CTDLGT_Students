@@ -12,7 +12,7 @@ public class Main {
 
         int arr[] = {1,2,3,4,5,6,7,8,9};
         int sum = sum2(arr, arr.length, 0);
-
+        //in ket qua
          System.out.println(sum);
      }
 }
