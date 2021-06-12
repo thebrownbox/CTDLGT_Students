@@ -1,0 +1,31 @@
+Phần 1: Chữa bài tập: 
+
+1636. Sort Array by Increasing Frequency
+
+- Một số nhận xét về bài đã làm:
+ *) Dương Minh Đức:
+    +) Biết tạo CTDL (class) mới để làm việc: RẤT TỐT 
+    +) Biết sử dụng hàm sort: RẤT TỐT 
+    -) Sử dụng hàm sort chưa tối ưu: sort 2 lần!!
+    -) Đặt tên chưa có ý nghĩa 
+
+*) Tống Công Minh:
+    +) Biết cách sử dụng sort đúng cách: RẤT TỐT
+    -) Chưa tối ưu lắm phần count 
+    -) Tên đặt cũng chưa hay 
+
+*) Nguyễn Hữu Quân:
+    +) Biết cách count đúng cách : RẤT TỐT!
+    -) Nên tận dụng thư viện sort 
+        (hoặc nên tách hàm sort ra làm hàm riêng để chương trình dễ nhìn hơn )
+*) Nguyễn Ngọc Hùng:
+    +) BÁ ĐẠO!
+
+"Code có thể sai nhưng phải sạch và đẹp!" 
+
+Kỹ thuật cần nhớ:
+- Cách sử dụng hàm sort trong Java
+- Cách sử dụng mảng đếm (Khi phù hợp: char or int giá trị nhỏ)
+
+
+Phần 2: Đệ quy 
