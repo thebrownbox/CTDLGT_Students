@@ -16,6 +16,6 @@ public class Travel_Array_2D {
 
     public static void main(String[] args) throws Exception {
         int[][] a = new int[2][3];
-        travel(a, 3, 3);
+        travel(a, 2, 3);
     }
 }
