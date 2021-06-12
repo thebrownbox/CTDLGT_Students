@@ -1,5 +1,6 @@
 public class Travel {
     public static void travel(int[][] a, int i, int j){
+        // Điều kiện vẫn nên chặt chẽ hơn  
         if (i >= a.length) {
             return;
         }

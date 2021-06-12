@@ -1,0 +1,18 @@
+Phần 1: Kiểm tra cách chạy của Fibonacy
+
+
+Phần 2: Chữa các bài tập & nhận xét 
+
+
+Phần 3: Tiếp tục lý thuyết:
+- Phân loại tối ưu hoá đệ quy 
+# làm mẫu với bài Fibonacy 
+
+Phần 4: Binary search 
+
+
+Phần 5: Đánh giá độ phức tạp
+
+# Bài tập về nhà:
+34 Reverse String
+50 Pow(x, n)

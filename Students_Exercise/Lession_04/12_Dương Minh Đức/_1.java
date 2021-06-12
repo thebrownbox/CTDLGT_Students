@@ -1,7 +1,7 @@
 public class _1 {
     public static int find(int x , int[] a ,int indext)
     {
-        if (indext<0  || indext >= a.length)
+        if (indext < 0  || indext >= a.length)
         {
             return -1;
         }
@@ -11,9 +11,7 @@ public class _1 {
             return indext;
         }
 
-       return find(x,a,indext+1);
-
-
+       return find(x, a, indext+1);
     }
 
     public static void main(String[] args) {
