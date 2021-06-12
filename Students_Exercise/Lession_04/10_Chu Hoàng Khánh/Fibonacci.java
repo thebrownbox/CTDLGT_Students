@@ -13,7 +13,6 @@ public class Fibonacci {
     }
 
     private static int fibonacci(int n) {
-        System.out.println("n = " + n);
         if (n <= 2) {
             return 1;
         } else {
