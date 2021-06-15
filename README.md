@@ -1,2 +1,2 @@
-# Data Structures and Algorithms Class
-This is the repo for my students in Data Structure and Algorithm Class
+# This Class C01_1020
+Lớp Cấu trúc dữ liệu và giải thuật Techmaster T10.2020
