@@ -2,12 +2,13 @@ public class TinhTongTuAdenB {
     public static int sum2(int[] a, int startIndex, int endIndex){
         int n = a.length;
         int sum = 0;
-        if(startIndex <0 || endIndex >n) return sum;
-        else{
-            if(endIndex==startIndex) return a[startIndex];
-            else{
-                return a[endIndex] + sum2(a,startIndex,endIndex-1);
-                
+        if (startIndex < 0 || endIndex > n) {
+            return sum;
+        } else {
+            if (endIndex == startIndex) {
+                return a[startIndex];
+            } else {
+                return a[endIndex] + sum2(a, startIndex, endIndex - 1);
             }
         }
     }

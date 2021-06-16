@@ -2,6 +2,7 @@
 public class MathArray {
     //Implement hàm sum1 để tính tổng các phần tử có trong mảng a
     private static int sum1(int a[], int n) {
+        
         if (n == a.length) {
             return 0;
         }
