@@ -1,18 +1,21 @@
 public class Find {
     public static int find(int x, int[] a, int i) {
+        // Co van de
         int temp = 0;
         if (i == 0) {
             if (temp == 0) {
                 return -1;
+            }else{
+
             }
         } else {
-
             if (a[i] == x) {
                 temp = i;
             } else {
                 return find(x, a, i - 1);
             }
         }
+        
         return temp;
     }
 

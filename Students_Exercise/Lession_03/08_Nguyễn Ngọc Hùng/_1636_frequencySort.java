@@ -12,6 +12,7 @@ public class _1636_frequencySort {
             nums[i] = 100 - nums[i] % 1000;
         return nums;
     }
+    
     public static void main(String[] args) {
         System.out.println(Arrays.toString(frequencySort(new int[]{1, 1, 2, 2, 2, 3})));
         System.out.println(Arrays.toString(frequencySort(new int[]{2, 3, 1, 3, 2})));
