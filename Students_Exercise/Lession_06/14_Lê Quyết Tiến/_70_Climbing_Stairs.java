@@ -1,6 +1,6 @@
 public class _70_Climbing_Stairs {
 
-    static int[] step = new int[45];
+    static int[] step = new int[46];
 
     public static int climb(int n) {
         if (step[n] != 0) {
