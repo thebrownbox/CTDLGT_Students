@@ -20,4 +20,5 @@ public class _1816_Truncate_Sentence {
         String s = "Hello how are you Contestant";
         System.out.println(truncateSentence(s, 4));
     }
+    
 }

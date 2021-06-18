@@ -1,4 +1,5 @@
 public class _766_Toeplitz_Matrix {
+
     public boolean isToeplitzMatrix(int[][] matrix) {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -9,6 +10,7 @@ public class _766_Toeplitz_Matrix {
         }
         return true;
     }
+    
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
     }

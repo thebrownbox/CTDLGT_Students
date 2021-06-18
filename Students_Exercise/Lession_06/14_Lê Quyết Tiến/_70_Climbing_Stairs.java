@@ -21,6 +21,7 @@ public class _70_Climbing_Stairs {
         }
         return result;
     }
+    
     public static void main(String[] args) throws Exception {
         System.out.println(climbStairs(7));
     }
