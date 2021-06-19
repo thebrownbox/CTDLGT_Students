@@ -18,6 +18,7 @@ public class _766_Toeplitz_Matrix {
         System.out.println(isToeplitzMatrix(matrix));
     }
 
+    // GOOOD!
     public static boolean isToeplitzMatrix(int[][] matrix) {
         int currRow = 1;
         while(currRow < matrix.length){
