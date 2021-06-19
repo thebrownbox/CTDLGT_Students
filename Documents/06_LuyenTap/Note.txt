@@ -1,0 +1,30 @@
+Phần 1: Binary Search
+- Học viên trình bày 
+- Code:
+- chạy thử cả 2 cách:
++) Tìm kiếm tuần tự 
++) Tìm kiếm nhị phân 
+
+Phần 2: Tính độ phức tạp
+- Thuật to
+
+Phần 3: Luyện tập:
+- Bài tập array:
++) 1480. Running Sum of 1d Array
++) 766. Toeplitz Matrix (*)
+- Bài tập String:
++) 1678. Goal Parser Interpretation
++) 709. To Lower Case
++) 1816. Truncate Sentence
+- Bài tập đệ quy:
++) 70. Climbing Stairs
+
+
+Phần 4: Giao bài tập về nhà:
++) 766. Toeplitz Matrix (*)
++) 1816. Truncate Sentence
++) 70. Climbing Stairs
+
+- Tìm hiểu phần sau: LinkedList 
++) Thêm 1 node : Hùng 
++) Xoá 1 node : Minh 
