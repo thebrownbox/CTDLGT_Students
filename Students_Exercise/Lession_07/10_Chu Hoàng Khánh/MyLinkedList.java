@@ -138,11 +138,13 @@ public class MyLinkedList {
                     temp = temp.next;
                 }
 
-                if (temp == null || temp.next == null){
+                if (temp == null || temp.next == null) {
                     return;
                 }
-            
+                
+                //Lấy ra node đứng trước node sẽ xóa
                 Node next = temp.next.next;
+                //Nối 2 node với nhau
                 temp.next = next;
 
         }
