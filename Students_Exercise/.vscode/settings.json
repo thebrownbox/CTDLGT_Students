@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Lession_07/10_Chu Hoàng Khánh",
         "Lession_06/10_Chu Hoàng Khánh",
         "Lession_05/10_Chu Hoàng Khánh",
         "Lession_04/10_Chu Hoàng Khánh",
@@ -9,7 +10,7 @@
         "Lession_02/09_Tống Công Minh",
         "Lession_02/06_Đặng Đức Mạnh",
         "Lession_01/10_Chu Hoàng Khánh",
-        "Lession_07/10_Chu Hoàng Khánh"
+        "Lession_08/10_Chu Hoàng Khánh"
     ],
     "git.ignoreLimitWarning": true
 }
