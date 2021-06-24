@@ -2,6 +2,7 @@ public class _766_Toeplitz_Matrix {
     public boolean isToeplitzMatrix(int[][] matrix) {
         int size = matrix.length;
         boolean[] thina = new boolean[size - 1];
+
         int k = 0;
         for (int i = 0; i < size - 1; i++) {
             int num = 0;
@@ -18,6 +19,7 @@ public class _766_Toeplitz_Matrix {
                 k = k + 1;
             }
         }
+        
         boolean result = true;
         for (int i = 0; i < thina.length; i++) {
             if (thina[i] == false) {
