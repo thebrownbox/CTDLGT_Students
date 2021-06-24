@@ -9,16 +9,43 @@ public class Fibonacci {
         // }
         // fibonacciwithloop(10);
 
-        System.out.println(fibonacci(7));
+        System.out.println(fibonacci2(5));
     }
 
-    private static int fibonacci(int n) {
-        if (n <= 2) {
-            return 1;
-        } else {
-            return fibonacci(n - 1) + fibonacci(n - 2);
+    // private static int fibonacci(int n) {
+    //     int[] kq = new int[n + 1];
+    //     if (n <= 2) {
+    //         return 1;
+    //     }
+    //     if (kq[n] == 0) {
+    //         int t = fibonacci(n - 1) + fibonacci(n - 2);
+    //         kq[n] = t;
+    //     } else {
+    //         return kq[n];
+    //     }
+
+    // }
+    
+    private static int fibonacci2(int n) {
+        int[] kq = new int[n + 1];
+    
+        kq[0] = 0;
+        kq[1] = 1;
+        kq[2] = 1;
+
+        if (n == 0 || n == 1) {
+            return kq[n];
         }
 
+        if (n <= 2) {
+            return kq[n];
+        }
+
+        for (int i = 3; i < kq.length; i++) {
+            kq[i] = kq[i - 1] + kq[i - 2];
+        }
+
+        return kq[n];
     }
 
     private static void fibonacciwithloop(int n) {

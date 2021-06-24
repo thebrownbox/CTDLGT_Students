@@ -7,9 +7,10 @@ public class _70_Climbing_Stairs {
             steps[i] = steps[i - 1] + steps[i - 2];
         }
         return steps[n];
-        }
-        public static void main(String[] args) {
-            int n = 3;
-            climbStairs(n);
-        }
     }
+
+    public static void main(String[] args) {
+        int n = 3;
+        climbStairs(n);
+    }
+}
