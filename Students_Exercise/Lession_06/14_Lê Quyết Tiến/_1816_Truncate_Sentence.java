@@ -1,5 +1,7 @@
 public class _1816_Truncate_Sentence {
 
+
+    // Good!
     public static String truncateSentence(String s, int k) {
         StringBuilder sb = new StringBuilder(s);
         int count = 0;
