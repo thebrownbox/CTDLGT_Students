@@ -1,0 +1,31 @@
+Note 1:
+- Nói qua về cách tìm bài giải
+- Nên tập trung ôn luyện vào lúc nào
+- Kiểm tra lại bài cũ:
+	+) Tính một số độ phức tạp
+	+) Truyen tham so
+
+- Hỏi Mạnh xem thi giữa kỳ chưa?
+
+
+Phần 1: Giới thiệu chung về Stack and Queue:
+
+Phần 2: Bài tập về stack và queue
+- Bài tập về queue:
+933. Number of Recent Calls
+
+- Bài tập về stack:
+20. Valid Parentheses
+1544. Make The String Great
+
+- Bài tập về priority_queue:
+1046. Last Stone Weight
+
+Phần 3: Ôn tập chung:
+STring + dequy:
+1694. Reformat Phone Number
+
+Bai tap ve nha:
+
+
+
