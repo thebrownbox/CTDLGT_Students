@@ -1,0 +1,306 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch _1544_Make_The_String_Great",
+            "request": "launch",
+            "mainClass": "_1544_Make_The_String_Great",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch abc",
+            "request": "launch",
+            "mainClass": "abc",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _20_Valid_Parentheses",
+            "request": "launch",
+            "mainClass": "_20_Valid_Parentheses",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Demo",
+            "request": "launch",
+            "mainClass": "Demo",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "Fibonacci",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch MathArray",
+            "request": "launch",
+            "mainClass": "MathArray",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintArray",
+            "request": "launch",
+            "mainClass": "PrintArray",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch SequentialSearch",
+            "request": "launch",
+            "mainClass": "SequentialSearch",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1051_HeightChecker",
+            "request": "launch",
+            "mainClass": "_1051_HeightChecker",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1051_Height_Checker",
+            "request": "launch",
+            "mainClass": "_1051_Height_Checker",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1089_Duplicate_Zeros",
+            "request": "launch",
+            "mainClass": "_1089_Duplicate_Zeros",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1221_Split_a_String",
+            "request": "launch",
+            "mainClass": "_1221_Split_a_String",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _141_Linked_List_Cycle_I",
+            "request": "launch",
+            "mainClass": "_141_Linked_List_Cycle_I",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _142_Linked_List_Cycle_II",
+            "request": "launch",
+            "mainClass": "_142_Linked_List_Cycle_II",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1480_Running_Sum_of_1d_Array",
+            "request": "launch",
+            "mainClass": "_1480_Running_Sum_of_1d_Array",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _160_Intersection_Of_Two_Linked_Lists",
+            "request": "launch",
+            "mainClass": "_160_Intersection_Of_Two_Linked_Lists",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1636_Sort_Array_by_Increasing_Frequency",
+            "request": "launch",
+            "mainClass": "_1636_Sort_Array_by_Increasing_Frequency",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1662_Check_If_Two_String_Arrays_are_Equivalent",
+            "request": "launch",
+            "mainClass": "_1662_Check_If_Two_String_Arrays_are_Equivalent",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1678_Goal_Parser_Interpretation",
+            "request": "launch",
+            "mainClass": "_1678_Goal_Parser_Interpretation",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1816_Truncate_Sentence",
+            "request": "launch",
+            "mainClass": "_1816_Truncate_Sentence",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _19_Remove_Nth_Node_From_List",
+            "request": "launch",
+            "mainClass": "_19_Remove_Nth_Node_From_List",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _206_Reverse_Linked_List",
+            "request": "launch",
+            "mainClass": "_206_Reverse_Linked_List",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _26_Remove_Duplicate_From_Sorted_Array",
+            "request": "launch",
+            "mainClass": "_26_Remove_Duplicate_From_Sorted_Array",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _27_Remove_Element",
+            "request": "launch",
+            "mainClass": "_27_Remove_Element",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _283_MoveZeroes",
+            "request": "launch",
+            "mainClass": "_283_MoveZeroes",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _344_Reverse_String",
+            "request": "launch",
+            "mainClass": "_344_Reverse_String",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _387_First_Unique_Char",
+            "request": "launch",
+            "mainClass": "_387_First_Unique_Char",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _414_ThirdMaximumNumber",
+            "request": "launch",
+            "mainClass": "_414_ThirdMaximumNumber",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _414_Third_Maximum_Number",
+            "request": "launch",
+            "mainClass": "_414_Third_Maximum_Number",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _485_Max_Consecutive_Ones",
+            "request": "launch",
+            "mainClass": "_485_Max_Consecutive_Ones",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _50_Pow",
+            "request": "launch",
+            "mainClass": "_50_Pow",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _704_Binary_Search",
+            "request": "launch",
+            "mainClass": "_704_Binary_Search",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _707_Design_Linked_List",
+            "request": "launch",
+            "mainClass": "_707_Design_Linked_List",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _709_To_Lower_Case",
+            "request": "launch",
+            "mainClass": "_709_To_Lower_Case",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _70_Climbing_Stairs",
+            "request": "launch",
+            "mainClass": "_70_Climbing_Stairs",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _766_Toeplitz_Matrix",
+            "request": "launch",
+            "mainClass": "_766_Toeplitz_Matrix",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _816_Truncate_Sentence",
+            "request": "launch",
+            "mainClass": "_816_Truncate_Sentence",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _933_NumberofRecentCalls",
+            "request": "launch",
+            "mainClass": "_933_NumberofRecentCalls",
+            "projectName": "Students_Exercise_6a93d4bc"
+        },
+        {
+            "type": "java",
+            "name": "Launch _1636_Sort_Array",
+            "request": "launch",
+            "mainClass": "_1636_Sort_Array"
+        },
+        {
+            "type": "java",
+            "name": "Launch _35_509_Fibonacci_Number",
+            "request": "launch",
+            "mainClass": "_35_509_Fibonacci_Number"
+        }
+    ]
+}
