@@ -63,9 +63,36 @@ class Sample{
 
     }
 
+    public static int[] twoSum(int[] a, int target) {
+        int[] result = new int[2];
+        Map<Integer, Integer> myMap = new HashMap<>();
+
+        
+        for (int i = 0; i < a.length; i++)
+        {
+            // B2: Tim (9-x) xem da ton tai hay chua
+            int expectedValue = target - a[i];
+            if(myMap.containsKey(expectedValue) == true){
+                // a[i] -> i
+                // (9-a[i]) : expectedValue :
+                int expectIndex = myMap.get(expectedValue);
+                result[0] = i;
+                result[1] = expectIndex;
+                return result;
+            }
+
+            // B1: x chua ton tai thi add vao
+            if(myMap.containsKey(a[i]) == false){
+                myMap.put(a[i], i);
+            }
+        }
+
+        return result;
+    }
+
 
     public static void main(String[] args) {
-        // usingSet();
-        usingMap();
+        int[] a= {3,2,4};
+        twoSum(a, 6);
     }
 }
