@@ -1,0 +1,9 @@
+Phần 1: Giới thiệu qua về Lý thuyết 
+
+Phần 2: Thực hành học cách sử dụng Map và Set 
+
+
+Phần 3: Làm bài tập 
+1. Chữa bài: Contains Duplicate.
+2. Chữa bài: Two Sum
+3. Chữa bài:  Isomorphic Strings

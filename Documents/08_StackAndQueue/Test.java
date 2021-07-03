@@ -10,7 +10,7 @@ public class Test {
             arr[i] = 0;
         }
     }
-
+    
     public static void reset_2(int[] arr){
         arr = new int[]{1,2,3};
     }
@@ -20,18 +20,22 @@ public class Test {
             arr[i] = 0;
         }
         arr = new int[]{1,2,3};
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = 1;
+        }
     }
 
     public static void main(String[] args) {
         int[] arr = {9,9,9};
-
+//000: Hưng, Linh, Phúc 
+// 999: Hùng 
         // reset_1(arr);
         // System.out.println(Arrays.toString(arr));
 
-        reset_2(arr);
-        System.out.println(Arrays.toString(arr));
+        // reset_2(arr);
+        // System.out.println(Arrays.toString(arr));
 
-        reset_3(arr);
-        System.out.println(Arrays.toString(arr));
+        // reset_3(arr);
+        // System.out.println(Arrays.toString(arr));
     }
 }
