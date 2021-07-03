@@ -1,0 +1,17 @@
+Phần 1: Giới thiệu về tree 
+
+
+Phần 2: 
+
+
+Bài tập làm tại lớp:
+701. Insert into a Binary Search Tree
+
+700. Search in a Binary Search Tree
+
+
+Bài tập về nhà:
+
+Tìm hiểu buổi sau:
+Mạnh: DFS
+Minh: BFS 
