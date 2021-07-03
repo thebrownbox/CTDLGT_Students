@@ -1,17 +1,33 @@
 Phần 1: Giới thiệu về tree 
-
+* Phần mềm mô phòng: https://visualgo.net/vi/bst
 
 Phần 2: 
 
 
 Bài tập làm tại lớp:
 701. Insert into a Binary Search Tree
-
 700. Search in a Binary Search Tree
 
 
+104. Maximum Depth of Binary Tree
+
+
+
+
 Bài tập về nhà:
+112. Path Sum
+450. Delete Node in a BST
+
+Optional
+98. Validate Binary Search Tree
+173. Binary Search Tree Iterator
+
+
 
 Tìm hiểu buổi sau:
-Mạnh: DFS
-Minh: BFS 
+Mạnh:BFS 
+Minh:  DFS
+-- ys tuowng,
+-- Cach cai dat 
+
+BST 
