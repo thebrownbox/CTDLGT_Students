@@ -12,6 +12,8 @@
 997. Find the Town Judge
 (Sử dụng danh sách cạnh! Xử lý mảng 2 chiều thông thường) 
 
+
+
 2. Sử dụng DFS để làm bài tập sau:
 200. Number of Islands
 (sử dụng DFS)
@@ -19,7 +21,6 @@
 
 
 # Bài tập về nhà:
-
 
 733. Flood Fill
 (Sử dụng DFS)
